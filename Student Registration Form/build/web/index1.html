@@ -1,0 +1,93 @@
+<html>
+    <head>
+        <title>Student Page</title>
+        <style>
+            body {
+            font-family: Arial, sans-serif;
+            }
+                 
+            .Container
+            {
+                width:25%;
+                border:3px solid black;
+                margin:auto;
+                padding:20px;
+                font-size:20px;
+		background-color:lightgoldenrodyellow;
+            }
+            
+            #my form table tr td input
+            {
+                font-size:100px;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <div class="Container">
+        <form id="myform" action="Student_Details" method="get">
+        <center>
+            <h2 style="border:3px solid black;">Student Details</h2>
+            <table Cellpadding=5>
+                <tr>
+                    <td><b>First Name:</b></td>
+                    <td><input type="text" name="firstName" placeholder="Enter First Name" ></td>
+                </tr>
+                <tr>
+                    <td><b>Last Name:</b></td>
+                    <td><input type="text" name="lastName" placeholder="Enter Surname" ></td>
+                </tr>
+                <tr>
+                    <td><b>Enrollment Number:</b></td>
+                    <td><input type="number" name="enroll_no" placeholder="Enter Enrollment Number" ></td>
+                </tr>
+                <tr>
+                    <td><b>Department:</b></td>
+                    <td>
+                        <select name="user_dept" placeholder="Select" >
+                                <option placeholder="Select"></option>
+				<option value="IT">IT</option>
+				<option value="MCA">MCA</option>
+				<option value="IC">IC</option>
+                                <option value="OC">OC</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>Semester:</b></td>
+                    <td>
+                        <select name="user_sem" placeholder="Select" >
+                                <option placeholder="Select"></option>
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+                                <option value="4">4</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>Email:</b></td>
+                    <td><input type="email" name="email" placeholder="Enter Email" ></td>
+                </tr>
+                <tr>
+                    <td><b>Contact Number:</b></td>
+                    <td><input type="number" name="number" placeholder="Enter Number" ></td>
+                </tr>
+                <tr>
+                    <td><b>Gender:</b></td>
+                    <td>
+                        <input type="radio" name="gender" value="male">Male
+                        <input type="radio" name="gender" value="female">Female
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: right"><input type="submit" value="Submit"></td>
+                    <td><button type="reset">Reset</button></td>
+                </tr>
+            </table>
+        </center>
+        </form>
+        </div>
+    
+    </body>
+</html>

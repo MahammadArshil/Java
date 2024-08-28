@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>Form Page</title>
+        <style>
+            body {
+            font-family: Arial, sans-serif;
+        }
+            .Container
+            {
+                width:20%;
+                border:3px solid black;
+                margin:auto;
+                padding:20px;
+                font-size:20px;
+		background-color:LightGray;
+            }
+            
+            #my form table tr td input
+            {
+                font-size:50px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="Container">
+            <h1><center><p style="background-color:MediumSeaGreen;">Login Page</p></center></h1>
+            <form id="myform" action="Login_Details" method="get">
+                <center><table Cellpadding=3>
+                    <tr>
+                        <td><p style="color:black;"><b>Username:</b></p></td>
+                        
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="user_name" placeholder="Enter your name"></td>
+                    </tr>
+                    <tr>
+                        <td><p style="color:black;"><b>Password:</b></p></td>
+                    </tr>
+                    <tr>
+                        <td><input type="password" name="user_pass" placeholder="Enter your password"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <center><button type="submit">Register</button></center>
+                        </td>
+                    </tr>
+                </table></center>
+            </form>
+        </div>
+    </body>
+</html>
