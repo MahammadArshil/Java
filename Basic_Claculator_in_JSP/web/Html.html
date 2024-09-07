@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>Calculator</title>
+        <style>
+            .Container
+            {
+                width:25%;
+                border:5px solid black;
+                margin:auto;
+                padding:10px;
+                font-size:20px;
+            }
+            #my form table tr td input
+            {
+                font-size:10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="Container">
+	<form action="Calc" method="get" name="frm">
+            <center>
+                <h1>My Calculator</h1>
+		<table border=3 Cellspacing=3 Cellpadding=4>
+			<tr>
+				<td>Enter First Value:<input type="text" name="txt1" value=""/></td>
+			</tr>
+                        <tr><td></td></tr>
+			<tr>
+				<td>Enter Second Value:<input type="text" name="txt2" value=""/></td>
+			</tr>
+                        
+                        <tr>
+                            <td>Operator(+,&nbsp&nbsp-,&nbsp&nbsp*,&nbsp&nbsp/)
+                            <select name="op">
+                            <option value="Addition">Addition</option>
+                            <option value="Substraction">Substraction</option>
+                            <option value="Multiplication">Multiplication</option>
+                            <option value="Division">Division</option>
+                            </select>
+                        </td>
+			</tr>
+                        <tr>
+                           
+                            <td>
+                        <button type="Submit">Register</button>
+                            </td>
+                        </tr>
+		</table>
+            </center>
+        </form>
+        </div>
+    </body>
+</html>
